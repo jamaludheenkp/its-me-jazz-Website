@@ -1,0 +1,55 @@
+for a web designing part of the personal page:-
+
+https://joshuapauldesign.com/ 
+
+https://rainbowit.net/
+
+https://technext.github.io/clark/index.html
+
+
+    border: none;
+    color: rgba(255, 255, 255, 0.5) !important;
+    cursor: pointer;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .1em;
+
+
+
+20+ Must-Have Front End Developer Skills for a Resume
+
+ 
+
+HyperText Markup Language (HTML)
+Cascading Style Sheets (CSS)
+JavaScript (JS)
+JavaScript (JS) Libraries (e.g., jQuery)
+CSS and JS Frameworks (e.g., AngularJS, Bootstrap)
+CSS Preprocessors (e.g., Sass, LESS, Stylus)
+Version Control (e.g., Git, Subversion, Mercurial)
+Responsive Design & Mobile-First Websites
+Content Management Systems (CMS)
+Search Engine Optimization (SEO)
+Microdata & Microformats
+Ruby and Ruby on Rails
+Performance Testing, Load Testing & Debugging
+Object-Oriented Programming
+Agile Methodology & SCRUM
+Technical Skills
+Project Management Skills
+Computer Skills
+Problem Solving Skills
+Excellent Communication Skills
+Time Management Skills
+Critical Thinking Skills
+Decision Making Skills
+
+
+
+
+product strategy : https://www.productplan.com/glossary/product-strategy/
+
+free template for static web site: w3layouts.com ---------- webflow.com
+
+
