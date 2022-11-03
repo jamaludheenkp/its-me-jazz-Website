@@ -257,60 +257,39 @@
                     <div class="h3 fw-light text-black ">Get In Touch!</div>
                     <p class="mb-4 text-black text-center ">Say Hello. I'd love to hear from you!</p>
                   </div>
-
-                  <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    
+                   <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyvv22m36o_y77Pg-cJdCxm61N3XSL-APxPP11wonbFn5EN2Ukz3-TNYSrYjaRW2Kclfg/exec">
 
                     <!-- Name Input -->
                     <div class="form-floating mb-3">
-                      <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                      <input class="form-control" id="name" name="name" type="text" placeholder="Name" />
                       <label for="name">Name</label>
-                      <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
                     </div>
 
                     <!-- Email Input -->
                     <div class="form-floating mb-3">
-                      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                      <input class="form-control" id="emailAddress" type="email" name="email" placeholder="Email Address" />
                       <label for="emailAddress">Email Address</label>
-                      <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-                      <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
                     </div>
                    
                     <!-- number Input -->
                     <div class="form-floating mb-3">
-                      <input class="form-control" id="ContactNumber" type="tel" placeholder="Contact Number" data-sb-validations="required" />
+                      <input class="form-control" id="ContactNumber" name="color" type="tel" placeholder="Contact Number" data-sb-validations="required" />
                       <label for="ContactNumber">Contact Number</label>
-                      <div class="invalid-feedback" data-sb-feedback="ContactNumber:required">Contact Number is required.</div>
                     </div>
 
                     <!-- Message Input -->
                     <div class="form-floating mb-3">
-                      <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                      <textarea class="form-control" id="message" name="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
                       <label for="message">Message</label>
-                      <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
-                    </div>
-
-                    <!-- Submit success message -->
-                    <div class="d-none" id="submitSuccessMessage">
-                      <div class="text-center mb-3">
-                        <div class="fw-bolder text-success">Form submission successful!</div>
-                        <!--<p>To activate this form, sign up at</p>-->
-                        <a href="#"></a>
-                      </div>
-                    </div>
-
-                    <!-- Submit error message -->
-                    <div class="d-none" id="submitErrorMessage">
-                      <div class="text-center text-danger mb-3">Error sending message!</div>
                     </div>
 
                     <!-- Submit button -->
                     <div class="d-grid text-center">   
-                    <button class="btn btn-primary  py-3 px-5 btn-lg disabled" id="submitButton" type="submit" style="width:100%;">Send Message</button>
+                    <button class="btn btn-primary  py-3 px-5 btn-lg " id="submitButton" type="submit" style="width:100%;">Send Message</button>
                     </div>
                   </form>
 
-                      <!-- SB Forms JS -->
-                      <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
                 </div>
               </div>
             </div>
